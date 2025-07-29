@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fiesta #MOTOMOTO</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="icon.png" />
+  </head>
+  <body>
+    <div class="pic">
+      <img src="fotoboliche.jpg" alt="Imagen" />
+      <div class="titulo">
+        <h1>Fiesta <br />MOTOMOTO</h1>
+      </div>
+      <div class="subtitulo"><h2>Vení a romperla.</h2></div>
+      <button class="ver-mas" id="ver-mas">Ver más</button>
+    </div>
+    <div class="content">
+      <div class="info-cajas">
+        <div class="caja">
+          <h2>22/06 - BUENOS AIRES</h2>
+          <p>
+            ¡Prepárate para una noche única! Groove se transforma en el
+            escenario de una fiesta temática sin igual. Ven a disfrutar de una
+            experiencia inolvidable con música, luces y sorpresas que te dejarán
+            sin aliento. <br />
+            ¿Estás listo para la diversión? ¡Nos vemos en Groove!
+          </p>
+          <button class="ver-mapa" id="ver-mapa-1">Tickets</button>
+        </div>
+        <div class="caja">
+          <h2>20/7 - ROSARIO</h2>
+          <p>
+            ¡No te pierdas la experiencia única de la fiesta temática este
+            viernes en Rosebar! Sumérgete en la noche con la presencia especial
+            de DJ Nafratti , quien hará vibrar la pista con sus mejores beats.
+            <br />¡Prepárate para una noche inolvidable!
+          </p>
+          <button class="ver-mapa" id="ver-mapa-2">Tickets</button>
+        </div>
+      </div>
+      <div class="timer-container">
+        <p>Próxima motomoto en...</p>
+        <div class="timer">
+          <span id="days"></span> días <span id="hours"></span> horas
+          <span id="minutes"></span> minutos
+        </div>
+      </div>
+      <div class="titulo-cajas">
+        <h2>Información importante</h2>
+      </div>
+      <div class="info-cajas">
+        <div class="caja">
+          <h2>¿Que suena en MOTOMOTO?</h2>
+          <p>
+            En la Fiesta MotoMoto vamos a hacer que no paren de moverse con el
+            mejor techengue. Una mezcla explosiva de tech house y cuarteto que
+            hará vibrar la pista toda la noche. <br />
+            ¡Prepárense para una experiencia musical única que no querrán
+            perderse!
+          </p>
+          <button class="ver-mapa" id="ver-mapa-3">Ver mapa</button>
+        </div>
+        <div class="caja">
+          <h2>Nuestra historia</h2>
+          <p>
+            Un grupo de amigos en Buenos Aires inició la Fiesta MotoMoto con
+            streams por Twitch, mezclando música y haciendo remixs. La fiesta
+            creció y pasó del mundo virtual al real, convirtiéndose en un
+            fenómeno.<br />
+            ¡Así nació la Fiesta MotoMoto!!
+          </p>
+          <button class="ver-mapa" id="ver-mapa-4">#motomoto</button>
+        </div>
+      </div>
+      <div class="info-cajas">
+        <div class="caja">
+          <h2>Escuchá nuestra Playlist</h2>
+          <p>
+            ¿Listos para la Fiesta MotoMoto? Antes de comenzar, asegúrense de
+            seguir nuestra playlist en Spotify para mantener la fiesta en marcha
+            toda la noche. ¡Fiesta MotoMoto y que la música no pare!
+          </p>
+          <button class="ver-mapa" id="ver-mapa-3">Ir a Spotify</button>
+        </div>
+        <div class="caja">
+          <h2>REDES</h2>
+          <p>
+            ¡Es momento de encender las redes sociales! ¿Listos para compartir
+            la magia de esta noche? No se olviden de usar nuestro hashtag
+            oficial: #FiestaMOTOMOTO.
+            <br />
+            ¡A compartir y a disfrutar!
+          </p>
+          <button class="ver-mapa" id="ver-mapa-4">¡Seguinos!</button>
+        </div>
+      </div>
+
+      <div class="info-cajas">
+        <div class="caja">
+          <h2>MOTOMOTO CLUB</h2>
+          <p>
+            ¿Quieren llevar la experiencia MotoMoto al siguiente nivel?
+            Disfruten de beneficios exclusivos, eventos especiales y más.<br />
+            ¡No se queden fuera y sean parte de la familia MotoMoto!
+          </p>
+          <button class="confirmation" id="confirmation-1">Unirme</button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+
+        <div class="social-icons">
+          <a href="https://web.whatsapp.com/">
+            <img src="icon-wa.png" alt="icon whatsapp" />
+          </a>
+          <a href="https://www.facebook.com/">
+            <img src="icon-fb.png" alt="icon facebook" />
+          </a>
+          <a href="https://web.instagram.com/404">
+            <img src="icon-ig.png" alt="icon instagram" />
+          </a>
+          <a href="https://www.twitter.com/">
+            <img src="icon-tw.png" alt="icon twitter" />
+          </a>
+          <a href="https://www.youtube.com/">
+            <img src="icon-yt.png" alt="icon youtube" />
+          </a>
+        </div>
+      </div>
+
+      <div class="derechos">
+        Todos los derechos reservados a MOTOMOTO 2025
+      </div>
+      <div class="derechos">
+        Desarrollado por
+        <a href="x">baecoTech</a>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("ver-mas").addEventListener("click", function () {
+        document
+          .querySelector(".info-cajas")
+          .scrollIntoView({ behavior: "smooth" });
+      });
+
+      document
+        .getElementById("ver-mapa-1")
+        .addEventListener("click", function () {
+          window.open(
+            "https://www.google.com/maps?q=loc:40.712776,-74.005974",
+            "_blank"
+          );
+        });
+
+      document
+        .getElementById("ver-mapa-2")
+        .addEventListener("click", function () {
+          window.open(
+            "https://www.google.com/maps?q=loc:34.052235,-118.243683",
+            "_blank"
+          );
+        });
+
+      document
+        .getElementById("ver-mapa-3")
+        .addEventListener("click", function () {
+          window.open(
+            "https://www.google.com/maps?q=loc:40.712776,-74.005974",
+            "_blank"
+          );
+        });
+
+      document
+        .getElementById("ver-mapa-4")
+        .addEventListener("click", function () {
+          window.open(
+            "https://www.google.com/maps?q=loc:34.052235,-118.243683",
+            "_blank"
+          );
+        });
+    </script>
+
+    <script>
+      document
+        .getElementById("confirmation")
+        .addEventListener("click", function () {
+          document
+            .querySelector(".timer-container")
+            .scrollIntoView({ behavior: "smooth" });
+        });
+
+      document
+        .getElementById("confirmation-1")
+        .addEventListener("click", function () {
+          window.open(
+            "https://www.google.com/maps?q=loc:40.712776,-74.005974",
+            "_blank"
+          );
+        });
+    </script>
+
+    <script>
+      // Establecer la fecha objetivo para la cuenta regresiva
+      var countDownDate = new Date("June 22, 2026 23:00:00").getTime();
+
+      // Función para actualizar la cuenta regresiva
+      function updateCountdown() {
+        var now = new Date().getTime();
+        var distance = countDownDate - now;
+
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor(
+          (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+        );
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+
+        document.getElementById("days").innerHTML = days;
+        document.getElementById("hours").innerHTML = hours;
+        document.getElementById("minutes").innerHTML = minutes;
+
+        // Si la cuenta regresiva termina
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("days").innerHTML = "0";
+          document.getElementById("hours").innerHTML = "0";
+          document.getElementById("minutes").innerHTML = "0";
+        }
+      }
+
+      // Actualizar la cuenta regresiva al cargar la página
+      updateCountdown();
+
+      // Actualizar la cuenta regresiva cada 1 minuto
+      var x = setInterval(updateCountdown, 60000);
+    </script>
+  </body>
+</html>
